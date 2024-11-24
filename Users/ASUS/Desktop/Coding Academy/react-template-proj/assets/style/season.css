@@ -1,0 +1,27 @@
+.season-card {
+    width: 200px;
+    height: 200px;
+    background-color: #ADD8E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: black;
+}
+
+.season-card > p {
+    font-weight: bold;
+    font-size: medium;
+    margin: 0;
+}
+
+.season-card.dark {
+    background-color: #00008C;
+    color: white;
+}
+
+.season-img {
+    width: 130px;
+    height: 130px;
+}
